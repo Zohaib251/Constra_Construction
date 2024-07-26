@@ -415,7 +415,7 @@ const Navbar = () => {
                 <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow cursor-pointer">
                   ParentMenu<span className="icon-arrow_forward_ios"></span>
                 </p>
-                <ul className="hidden bg-white shadow-lg mt-1 border-t-2 border-yellow-500 group-hover:block">
+                <ul className="hidden bg-white shadow-lg mt-1 border-t-2 border-yellow-500 ">
                   <li>
                     <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">
                       ChildMenu1
