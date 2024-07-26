@@ -18,20 +18,25 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <div className="hidden md:flex space-x-4">
             <ul className="flex space-x-4">
-              {/* Navigation Links */}
               <li className="relative group">
                 <p className="block text-customYellow cursor-pointer mt-2 font-bold">
                   Home<span className="icon-cheveron-down"></span>
                 </p>
                 <ul className="absolute left-0 hidden group-hover:block bg-white shadow-lg mt-1 pr-10 border-t-2 border-yellow-500">
                   <li>
-                    <a className="block mx-2 px-4 py-2 text-customYellow" href="/">
+                    <a
+                      className="block mx-2 px-4 py-2 text-customYellow"
+                      href="/"
+                    >
                       HomeOne
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block mx-2 px-4 py-2 text-customDarkGray hover:text-customYellow" href="/homeTwo">
+                    <a
+                      className="block mx-2 px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/homeTwo"
+                    >
                       HomeTwo
                     </a>
                   </li>
@@ -43,31 +48,46 @@ const Navbar = () => {
                 </p>
                 <ul className="absolute left-0 hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/about">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/about"
+                    >
                       AboutUs
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/ourTeam">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/ourTeam"
+                    >
                       OurPeople
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/testimonials">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/testimonials"
+                    >
                       Testimonials
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/faq">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/faq"
+                    >
                       Faq
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/pricing">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/pricing"
+                    >
                       Pricing
                     </a>
                     <hr className="ml-3 border-customLightGray" />
@@ -80,13 +100,19 @@ const Navbar = () => {
                 </p>
                 <ul className="absolute left-0 hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/projectAll">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/projectAll"
+                    >
                       ProjectAll
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/projectSingle">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/projectSingle"
+                    >
                       ProjectSingle
                     </a>
                   </li>
@@ -98,13 +124,19 @@ const Navbar = () => {
                 </p>
                 <ul className="absolute left-0 hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/serviceALL">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/serviceALL"
+                    >
                       ServiceAll
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/serviceSingle">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/serviceSingle"
+                    >
                       ServiceSingle
                     </a>
                   </li>
@@ -116,13 +148,19 @@ const Navbar = () => {
                 </p>
                 <ul className="absolute left-0 hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/typography">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/typography"
+                    >
                       Typography
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/404">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/404"
+                    >
                       404
                     </a>
                     <hr className="ml-3 border-customLightGray" />
@@ -133,15 +171,21 @@ const Navbar = () => {
                     </p>
                     <ul className="absolute left-full top-0 hidden bg-white shadow-lg mt-1 border-t-2 border-yellow-500 hover:block">
                       <li>
-                        <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">ChildMenu1</p>
+                        <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">
+                          ChildMenu1
+                        </p>
                         <hr className="ml-3 border-customLightGray" />
                       </li>
                       <li>
-                        <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">ChildMenu2</p>
+                        <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">
+                          ChildMenu2
+                        </p>
                         <hr className="ml-3 border-customLightGray" />
                       </li>
                       <li>
-                        <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">ChildMenu3</p>
+                        <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">
+                          ChildMenu3
+                        </p>
                       </li>
                     </ul>
                   </li>
@@ -153,57 +197,76 @@ const Navbar = () => {
                 </p>
                 <ul className="absolute left-0 hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/newsLeftSidebar">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/newsLeftSidebar"
+                    >
                       NewsLeftSidebar
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/newsRightSidebar">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/newsRightSidebar"
+                    >
                       NewsRightSidebar
                     </a>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/newsSingle">
+                    <a
+                      className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                      href="/newsSingle"
+                    >
                       NewsSingle
                     </a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a className="block px-4 py-2 text-white hover:text-customYellow cursor-pointer font-bold" href="/contact">
+                <a
+                  className="block px-4 py-2 text-white hover:text-customYellow cursor-pointer font-bold"
+                  href="/contact"
+                >
                   Contact
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        
-        <div className="py-2 flex items-center space-x-4">
-          <span className="icon-search text-customMediumGray cursor-pointer" onClick={toggleSearch}></span>
-          {isSearchOpen && (
-            <div className="relative">
-              <div className="absolute mt-2 shadow-lg w-40 border border-gray-300 rounded-lg">
-                <input
-                  type="text"
-                  className="w-full py-2 px-3 bg-transparent focus:outline-none"
-                  placeholder="Type what you want to enter"
-                />
-                <span className="icon-cross absolute top-2 right-2 cursor-pointer" onClick={toggleSearch}></span>
-              </div>
-            </div>
-          )}          
+
+        <div className="py-2 flex md:space-x-4 space-x-60">
           <div className="menu-toggle md:hidden" onClick={toggleMenu}>
             <span className="block w-6 h-0.5 bg-customYellow  mb-1"></span>
             <span className="block w-6 h-0.5 bg-customYellow  mb-1"></span>
             <span className="block w-6 h-0.5 bg-customYellow "></span>
           </div>
+          <span
+            className="icon-search text-customMediumGray cursor-pointer"
+            onClick={toggleSearch}
+          ></span>
+          {isSearchOpen && (
+            <div className="">
+              <div className="absolute md:left-3/4 right-14 mt-10 shadow-lg w-40 border border-gray-300 rounded-lg">
+                <input
+                  type="text"
+                  className="w-full py-2 px-2 text-white bg-transparent focus:outline-none"
+                  placeholder="Type"
+                />
+                <span
+                  className="icon-cross text-white absolute top-2 right-2 cursor-pointer"
+                  onClick={toggleSearch}
+                ></span>
+              </div>
+            </div>
+          )}
         </div>
       </div>
-      <div className={`${isMenuOpen ? "block" : "hidden"} md:hidden bg-customGray`}>
+      <div
+        className={`${isMenuOpen ? "block" : "hidden"} md:hidden bg-customGray`}
+      >
         <ul className="flex flex-col space-y-2 p-4">
-          {/* Responsive Navigation Links */}
           <li className="relative group">
             <p className="block text-customYellow cursor-pointer font-bold">
               Home<span className="icon-cheveron-down"></span>
@@ -216,7 +279,10 @@ const Navbar = () => {
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block mx-2 px-4 py-2 text-customDarkGray hover:text-customYellow" href="/homeTwo">
+                <a
+                  className="block mx-2 px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/homeTwo"
+                >
                   HomeTwo
                 </a>
               </li>
@@ -228,31 +294,46 @@ const Navbar = () => {
             </p>
             <ul className="hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/about">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/about"
+                >
                   AboutUs
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/ourTeam">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/ourTeam"
+                >
                   OurPeople
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/testimonials">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/testimonials"
+                >
                   Testimonials
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/faq">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/faq"
+                >
                   Faq
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/pricing">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/pricing"
+                >
                   Pricing
                 </a>
                 <hr className="ml-3 border-customLightGray" />
@@ -265,13 +346,19 @@ const Navbar = () => {
             </p>
             <ul className="hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/projectAll">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/projectAll"
+                >
                   ProjectAll
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/projectSingle">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/projectSingle"
+                >
                   ProjectSingle
                 </a>
               </li>
@@ -283,13 +370,19 @@ const Navbar = () => {
             </p>
             <ul className="hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/serviceALL">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/serviceALL"
+                >
                   ServiceAll
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/serviceSingle">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/serviceSingle"
+                >
                   ServiceSingle
                 </a>
               </li>
@@ -301,13 +394,19 @@ const Navbar = () => {
             </p>
             <ul className="hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/typography">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/typography"
+                >
                   Typography
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/404">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/404"
+                >
                   404
                 </a>
                 <hr className="ml-3 border-customLightGray" />
@@ -318,15 +417,21 @@ const Navbar = () => {
                 </p>
                 <ul className="hidden bg-white shadow-lg mt-1 border-t-2 border-yellow-500 group-hover:block">
                   <li>
-                    <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">ChildMenu1</p>
+                    <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">
+                      ChildMenu1
+                    </p>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">ChildMenu2</p>
+                    <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">
+                      ChildMenu2
+                    </p>
                     <hr className="ml-3 border-customLightGray" />
                   </li>
                   <li>
-                    <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">ChildMenu3</p>
+                    <p className="block px-4 py-2 text-customDarkGray hover:text-customYellow">
+                      ChildMenu3
+                    </p>
                   </li>
                 </ul>
               </li>
@@ -338,26 +443,38 @@ const Navbar = () => {
             </p>
             <ul className="hidden group-hover:block bg-white shadow-lg mt-1 border-t-2 border-yellow-500">
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/newsLeftSidebar">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/newsLeftSidebar"
+                >
                   NewsLeftSidebar
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/newsRightSidebar">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/newsRightSidebar"
+                >
                   NewsRightSidebar
                 </a>
                 <hr className="ml-3 border-customLightGray" />
               </li>
               <li>
-                <a className="block px-4 py-2 text-customDarkGray hover:text-customYellow" href="/newsSingle">
+                <a
+                  className="block px-4 py-2 text-customDarkGray hover:text-customYellow"
+                  href="/newsSingle"
+                >
                   NewsSingle
                 </a>
               </li>
             </ul>
           </li>
           <li>
-            <a className="block px-4 py-2 text-white hover:text-customYellow cursor-pointer font-bold" href="/contact">
+            <a
+              className="block px-4 py-2 text-white hover:text-customYellow cursor-pointer font-bold"
+              href="/contact"
+            >
               Contact
             </a>
           </li>
