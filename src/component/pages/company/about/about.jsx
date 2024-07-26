@@ -84,8 +84,11 @@ const about = () => {
           PROFESSIONAL TEAM
         </p>
       </div>
-      
-      <div className="flex flex-col ml-12" style={{ width: "90%" }}>
+
+      <div
+        className="flex flex-col px-4 sm:px-8 lg:px-12"
+        style={{ width: "100%" }}
+      >
         <div
           className={`flex overflow-x-auto hide-scrollbar transition-transform duration-500`}
         >
@@ -100,24 +103,23 @@ const about = () => {
           ))}
         </div>
 
-        <div className="flex justify-center mt-16 bg-white">
+        <div className="flex justify-center mt-8 sm:mt-12 bg-white">
           <div className="flex">
             <button
               onClick={handlePrevious}
-              className="w-10 h-10 flex justify-center items-center border-2 border-customDarkGray text-customGray hover:bg-customMediumGray hover:text-white transition-colors duration-300"
+              className="w-8 h-8 sm:w-10 sm:h-10 flex justify-center items-center border-2 border-customDarkGray text-customGray hover:bg-customMediumGray hover:text-white transition-colors duration-300"
             >
-              <span className="icon-arrow_back_ios"></span>
+              <span className="icon-arrow_back_ios text-xs sm:text-base"></span>
             </button>
             <button
               onClick={handleNext}
-              className="w-10 h-10 flex justify-center items-center border-2 border-customDarkGray text-customGray hover:bg-customMediumGray hover:text-white transition-colors duration-300 border-l-0"
+              className="w-8 h-8 sm:w-10 sm:h-10 flex justify-center items-center border-2 border-customDarkGray text-customGray hover:bg-customMediumGray hover:text-white transition-colors duration-300 border-l-0"
             >
-              <span className="icon-arrow_forward_ios"></span>
+              <span className="icon-arrow_forward_ios text-xs sm:text-base"></span>
             </button>
           </div>
         </div>
       </div>
-
       {/* <Team /> */}
       <AboutUS />
       <Footer />

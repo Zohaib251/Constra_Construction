@@ -1,27 +1,27 @@
 import React from "react";
 
-const footer = () => {
+const Footer = () => {
   return (
-    <footer className="bg-customYellow text-black py-8  w-full">
-      <div className=" text-center">
-        <div className="container text-sm font-semibold mx-auto flex justify-around items-center">
+    <footer className="bg-customYellow text-black py-8 w-full">
+      <div className="text-center">
+        <div className="container text-sm font-semibold mx-auto flex flex-col lg:flex-row justify-around items-center gap-4 lg:gap-0">
           <div>
-            <p>Copyright © 2024, Designed & Developed by Themefisher</p>
+            <p>&copy; 2024, Designed & Developed by Themefisher</p>
           </div>
-          <div className="flex space-x-4">
-            <a href="/about" className="hover:text-white ">
+          <div className="flex flex-wrap justify-center lg:justify-start space-x-4">
+            <a href="/about" className="hover:text-white">
               About
             </a>
-            <a href="/ourTeam" className="hover:text-white ">
+            <a href="/ourTeam" className="hover:text-white">
               Our people
             </a>
-            <a href="/faq" className="hover:text-white ">
+            <a href="/faq" className="hover:text-white">
               Faq
             </a>
-            <a href="/newsLeftSidebar" className="hover:text-white ">
+            <a href="/newsLeftSidebar" className="hover:text-white">
               Blog
             </a>
-            <a href="/pricing" className="hover:text-white ">
+            <a href="/pricing" className="hover:text-white">
               Pricing
             </a>
           </div>
@@ -31,4 +31,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

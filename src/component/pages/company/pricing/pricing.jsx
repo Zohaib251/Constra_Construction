@@ -41,8 +41,9 @@ const pricing = () => {
           PRICING
         </p>
       </div>
-      <div className="text-center justify-center px-20 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
+
+      <div className="text-center px-4 py-8 md:px-20 md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-20">
           {pricingData.map((card, index) => (
             <PricingCard key={index} {...card} />
           ))}

@@ -1,6 +1,6 @@
-import react, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
-const topbarHomeTwo = () => {
+const TopbarHomeTwo = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -22,16 +22,18 @@ const topbarHomeTwo = () => {
       behavior: "smooth",
     });
   };
+
   return (
     <div>
-          <div className=" py-3" style={{backgroundColor:"#EAEAEA"}}>
-        <div className="container mx-auto flex flex-wrap items-center">
-          <div className="w-full md:w-1/2 flex items-center">
-            <span className="text-gray-600 ml-24 icon icon-location">
+      {/* Topbar */}
+      <div className="py-3 bg-gray-200">
+        <div className="container mx-auto flex flex-wrap items-center justify-around px-4 md:px-0">
+          <div className="w-full md:w-auto flex items-center mb-2 md:mb-0">
+            <span className="text-gray-600 icon icon-location">
               9051 Constra Incorporate, USA
             </span>
           </div>
-          <div className="w-full md:w-1/2 flex justify-end space-x-6 pr-24">
+          <div className="w-full md:w-auto flex justify-center md:justify-end space-x-6">
             <a href="/" className="text-gray-800">
               <span className="icon icon-facebook"></span>
             </a>
@@ -59,7 +61,7 @@ const topbarHomeTwo = () => {
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default topbarHomeTwo
+export default TopbarHomeTwo;

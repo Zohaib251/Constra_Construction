@@ -1,27 +1,27 @@
 import React from "react";
 import img from "../../images/footer/footer-logo.png";
 
-const aboutUS = () => {
+const AboutUS = () => {
   return (
-    <div className="text-white bg-black mt-14 py-20 ">
-      <div className="flex gap-10 justify-center text-center">
-        <div className="flex justify-center text-center">
+    <div className="text-white bg-black mt-14 py-20 px-4 sm:px-8">
+      <div className="flex flex-col lg:flex-row gap-10 justify-center text-center lg:text-left">
+        <div className="flex justify-center lg:justify-start">
           <div>
             <div>
-              <h2 className="font-semibold text-left text-lg px-3 border-l-4  border-customYellow ">
+              <h2 className="font-semibold text-left text-lg px-3 border-l-4 border-customYellow">
                 ABOUT US
               </h2>
             </div>
-            <div className="w-40 mt-10">
+            <div className="w-40 mt-10 mx-auto lg:mx-0">
               <img src={img} alt="" />
             </div>
-            <div className="w-96 my-7 text-base text-left text-customMediumGray">
+            <div className="lg:w-96 my-7 text-base text-left text-customMediumGray">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor inci done idunt ut labore et dolore magna aliqua.
               </p>
             </div>
-            <div className="space-x-6 text-left">
+            <div className="space-x-6 text-left flex justify-center lg:justify-start">
               <a href="/" className="text-customMediumGray">
                 <span className="icon icon-facebook"></span>
               </a>
@@ -37,15 +37,14 @@ const aboutUS = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center text-center">
+        <div className="flex justify-center lg:justify-start">
           <div>
             <div>
-              <h2 className="font-semibold text-left text-lg px-3 border-l-4  border-customYellow ">
+              <h2 className="font-semibold text-left text-lg px-3 border-l-4 border-customYellow">
                 WORKING HOURS
               </h2>
             </div>
-
-            <div className="w-96 my-7 text-base text-left text-customMediumGray">
+            <div className="lg:w-96 my-7 text-base text-left text-customMediumGray">
               <p>
                 We work 7 days a week, every day excluding major holidays.
                 Contact us if you have an emergency, with our Hotline and
@@ -82,46 +81,56 @@ const aboutUS = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center text-center">
+        <div className="flex justify-center lg:justify-start">
           <div>
             <div>
-              <h2 className="font-semibold text-left text-lg px-3 border-l-4  border-customYellow ">
+              <h2 className="font-semibold text-left text-lg px-3 border-l-4 border-customYellow">
                 SERVICES
               </h2>
-              <div className="container  text-left py-7">
+              <div className="container text-left py-7">
                 <div className="">
                   <a href="/serviceSingle">
-                    <div className="text-customMediumGray  gap-3 flex items-center">
-                      <span class="icon-arrow_forward_ios"></span>
-                      <h3 className="hover:text-customYellow text-base  ">Pre-Construction</h3>
+                    <div className="text-customMediumGray gap-3 flex items-center">
+                      <span className="icon-arrow_forward_ios"></span>
+                      <h3 className="hover:text-customYellow text-base">
+                        Pre-Construction
+                      </h3>
                     </div>
                   </a>
                   <hr className="my-3 text-customMediumGray opacity-10" />
                   <a href="/serviceSingle">
-                    <div className="text-customMediumGray  gap-3 flex items-center">
-                      <span class="icon-arrow_forward_ios"></span>
-                      <h3 className="hover:text-customYellow text-base  ">General Contracting</h3>
+                    <div className="text-customMediumGray gap-3 flex items-center">
+                      <span className="icon-arrow_forward_ios"></span>
+                      <h3 className="hover:text-customYellow text-base">
+                        General Contracting
+                      </h3>
                     </div>
                   </a>
                   <hr className="my-3 text-customMediumGray opacity-10" />
                   <a href="/serviceSingle">
-                    <div className="text-customMediumGray  gap-3 flex items-center">
-                      <span class="icon-arrow_forward_ios"></span>
-                      <h3 className="hover:text-customYellow text-base  ">Construction Management</h3>
+                    <div className="text-customMediumGray gap-3 flex items-center">
+                      <span className="icon-arrow_forward_ios"></span>
+                      <h3 className="hover:text-customYellow text-base">
+                        Construction Management
+                      </h3>
                     </div>
                   </a>
                   <hr className="my-3 text-customMediumGray opacity-10" />
                   <a href="/serviceSingle">
-                    <div className="text-customMediumGray  gap-3 flex items-center">
-                      <span class="icon-arrow_forward_ios"></span>
-                      <h3 className="hover:text-customYellow text-base  ">Design and Build</h3>
+                    <div className="text-customMediumGray gap-3 flex items-center">
+                      <span className="icon-arrow_forward_ios"></span>
+                      <h3 className="hover:text-customYellow text-base">
+                        Design and Build
+                      </h3>
                     </div>
                   </a>
                   <hr className="my-3 text-customMediumGray opacity-10" />
                   <a href="/serviceSingle">
-                    <div className="text-customMediumGray  gap-3 flex items-center">
-                      <span class="icon-arrow_forward_ios"></span>
-                      <h3 className="hover:text-customYellow text-base  ">Self-Perform Construction</h3>
+                    <div className="text-customMediumGray gap-3 flex items-center">
+                      <span className="icon-arrow_forward_ios"></span>
+                      <h3 className="hover:text-customYellow text-base">
+                        Self-Perform Construction
+                      </h3>
                     </div>
                   </a>
                 </div>
@@ -134,4 +143,4 @@ const aboutUS = () => {
   );
 };
 
-export default aboutUS;
+export default AboutUS;

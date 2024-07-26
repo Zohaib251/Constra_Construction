@@ -74,13 +74,15 @@ const serviceAll = () => {
       <Topbar />
       <Navbar />
       <Bg_Image mainText="SERVICE" subText="HOME / SERVICES/ ALL SERVICES" />
-      <div className="my-14 flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 max-w-7xl w-full px-10">
-          {services.map((service, index) => (
-            <ServiceCard key={index} {...service} />
-          ))}
-        </div>
-      </div>
+    
+
+<div className="my-14 flex justify-center">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-7xl w-full px-4 sm:px-6 md:px-10">
+    {services.map((service, index) => (
+      <ServiceCard key={index} {...service} />
+    ))}
+  </div>
+</div>
       <AboutUS />
       <Footer />
     </div>

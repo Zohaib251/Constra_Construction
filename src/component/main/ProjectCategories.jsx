@@ -103,7 +103,7 @@ function ProjectCategories() {
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-10 mx-auto ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto ">
             {filteredImages.map((image) => (
               <div
                 key={image.id}

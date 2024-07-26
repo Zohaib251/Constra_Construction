@@ -27,10 +27,10 @@ const ProjectCard = () => {
   ];
 
   return (
-    <div className="flex justify-center py-12">
-      <div className="bg-white rounded-lg  flex">
+    <div className="flex flex-col lg:flex-row justify-center py-12">
+      <div className="bg-white rounded-lg flex flex-col lg:flex-row">
         {/* Image Slider */}
-        <div className="relative w-2/4">
+        <div className="relative w-full lg:w-2/4 h-60 lg:h-auto">
           <div
             style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
             className="w-full h-full bg-center bg-cover duration-500"
@@ -38,18 +38,18 @@ const ProjectCard = () => {
 
           {/* Arrow buttons */}
           <div
-            className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-0 text-2xl rounded-sm p-3 hover:bg-customYellow transition-all bg-black/40 text-white cursor-pointer icon-arrow_back_ios"
+            className="absolute top-1/2 -translate-x-0 -translate-y-1/2 left-2 text-2xl rounded-sm p-3 hover:bg-customYellow transition-all bg-black/40 text-white cursor-pointer icon-arrow_back_ios"
             onClick={prevSlide}
           ></div>
 
           <div
-            className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-0 text-2xl rounded-sm p-3 hover:bg-customYellow transition-all bg-black/40 text-white cursor-pointer icon-arrow_forward_ios"
+            className="absolute top-1/2 -translate-x-0 -translate-y-1/2 right-2 text-2xl rounded-sm p-3 hover:bg-customYellow transition-all bg-black/40 text-white cursor-pointer icon-arrow_forward_ios"
             onClick={nextSlide}
           ></div>
         </div>
 
         {/* Text Content */}
-        <div className="w-2/4 px-4 py-6">
+        <div className="w-full lg:w-2/4 px-4 py-6">
           <h2 className="text-xl font-bold mb-4">Capital Teltway Building</h2>
           <p className="text-gray-600 mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
