@@ -236,8 +236,8 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="py-2 flex md:space-x-4 space-x-60">
-          <div className="menu-toggle md:hidden" onClick={toggleMenu}>
+        <div className="py-2 flex md:space-x-4">
+          <div className="menu-toggle md:hidden mr-60 " onClick={toggleMenu}>
             <span className="block w-6 h-0.5 bg-customYellow  mb-1"></span>
             <span className="block w-6 h-0.5 bg-customYellow  mb-1"></span>
             <span className="block w-6 h-0.5 bg-customYellow "></span>
@@ -248,7 +248,7 @@ const Navbar = () => {
           ></span>
           {isSearchOpen && (
             <div className="">
-              <div className="absolute md:left-3/4 right-14 mt-10 shadow-lg w-40 border border-gray-300 rounded-lg">
+              <div className="absolute md:left-3/4 right-14 overflow-hidden mt-10 shadow-lg w-40 border border-gray-300 rounded-lg">
                 <input
                   type="text"
                   className="w-full py-2 px-2 text-white bg-transparent focus:outline-none"
